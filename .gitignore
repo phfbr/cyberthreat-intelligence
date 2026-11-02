@@ -1,0 +1,29 @@
+
+# Ambiente virtual Python
+.venv/
+venv/
+
+# Cache e arquivos temporários Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Configurações locais e credenciais
+.env
+.env.*
+!.env.example
+.vscode/
+
+# Arquivos temporários
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Dados locais do pipeline
+data/bronze/
+data/silver/
+data/gold/
+
+# Arquivos temporários do Power BI
+*.pbit.tmp
